@@ -3,6 +3,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CodeEscapism by Jeanno</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
         <link rel="stylesheet" href="styles.css">
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40619788-1"></script>
         <script>
@@ -14,47 +17,83 @@
         </script>
     </head>
     <body>
-        <h1>CodeEscapism by Jeanno</h1>
-        <h2>Projects</h2>
-        <p>
-            <a href="https://www.sigstick.com" target="_blank">
-                SigStick</a> - The only app you need to find your favourite stickers for messengers (Signal, Telegram, WhatsApp, etc.)
-        </p>
-        <p>
-            <a href="https://zodiac.jeanno.xyz" target="_blank">
-                Zodiac</a> - LLM-powered horoscope readings
-        </p>
-        <p>
-            <a href="/mission99/index.html" target="_blank">
-                Mission99</a> - Nostalgic bullet dodging game 
-        </p>
-        <p>
-            <a href="https://github.com/Jeanno/neofuzzy" target="_blank">
-                neofuzzy</a> - Fuzzy search string in text with arbitrary edit distance threshold  
-        </p>
-        <p>
-            <a href="https://github.com/Jeanno/rasterina" target="_blank">
-                Rasterina</a> - Reveal an image by moving the pointer on the canvas
-        </p>
-        <p>
-            <a href="https://jeanno.github.io/mandelbrot/" target="_blank">
-                Mandelbrot Set Viewer</a> - A HTML5 Mandelbrot Set Viewer
-        </p>
-        <p>
-            <a href="https://github.com/Jeanno/pad-dialer" target="_blank">
-                Padding Dialer</a> - A Python framework for implementing padding oracle attack on encryptions
-        </p>
-        <p>
-            <a href="https://jeanno.github.io/tile-swap" target="_blank">
-                Tile Swap</a> - A tile swapping game I wrote becasue I want to play
-        </p>
+        <div class="hero">
+            <div class="container">
+                <h1>CodeEscapism</h1>
+                <p>Startup Founder • Software Developer • Go Player • Fencer</p>
+            </div>
+        </div>
 
-        <h2>About me</h2>
-        <p>Software Engineer, Programmer, Fencer, Gamer, Go Player</p>
-        <p>Former engineer from Apple and Google. At some point worked in my own startup on digital publishing and digital catalogue.</p>
-        <hr>
-        <p>A website by Jeanno</p>
-        <p>Find me on <a href="https://github.com/Jeanno/">GitHub</a></p>
-        <div>ETH: 0xA5Beef035dac92456CCeF2829e3f5F0790534702</div>
+        <main class="container">
+            <div class="projects-grid">
+                <a href="https://www.sigstick.com" target="_blank" class="project-card">
+                    <h3>SigStick</h3>
+                    <p>The only app you need to find your favourite stickers for messengers</p>
+                    <span class="view-project">View Project →</span>
+                </a>
+                
+                <a href="https://zodiac.jeanno.xyz" target="_blank" class="project-card">
+                    <h3>Zodiac</h3>
+                    <p>LLM-powered horoscope readings</p>
+                    <span class="view-project">View Project →</span>
+                </a>
+
+                <a href="/mission99/index.html" target="_blank" class="project-card">
+                    <h3>Mission99</h3>
+                    <p>Nostalgic bullet dodging game</p>
+                    <span class="view-project">View Project →</span>
+                </a>
+
+                <a href="https://github.com/Jeanno/neofuzzy" target="_blank" class="project-card">
+                    <h3>neofuzzy</h3>
+                    <p>Fuzzy search string in text with arbitrary edit distance threshold</p>
+                    <span class="view-project">View Project →</span>
+                </a>
+
+                <a href="https://github.com/Jeanno/rasterina" target="_blank" class="project-card">
+                    <h3>Rasterina</h3>
+                    <p>Reveal an image by moving the pointer on the canvas</p>
+                    <span class="view-project">View Project →</span>
+                </a>
+
+                <a href="https://jeanno.github.io/mandelbrot/" target="_blank" class="project-card">
+                    <h3>Mandelbrot Set Viewer</h3>
+                    <p>A HTML5 Mandelbrot Set Viewer</p>
+                    <span class="view-project">View Project →</span>
+                </a>
+
+                <a href="https://github.com/Jeanno/pad-dialer" target="_blank" class="project-card">
+                    <h3>Padding Dialer</h3>
+                    <p>A Python framework for implementing padding oracle attack on encryptions</p>
+                    <span class="view-project">View Project →</span>
+                </a>
+
+                <a href="https://jeanno.github.io/tile-swap" target="_blank" class="project-card">
+                    <h3>Tile Swap</h3>
+                    <p>A tile swapping game I wrote because I want to play</p>
+                    <span class="view-project">View Project →</span>
+                </a>
+            </div>
+
+            <section class="about">
+                <div class="container">
+                    <h2>About Me</h2>
+                    <p>Former engineer from Apple and Google. At some point worked in my own startup on digital publishing and digital catalogue.</p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="social-links">
+                    <a href="https://github.com/Jeanno/"><i class="fab fa-github"></i></a>
+                </div>
+                <p>A website by Jeanno</p>
+                <div class="eth-address">
+                    <i class="fab fa-ethereum"></i>
+                    <span>0xA5Beef035dac92456CCeF2829e3f5F0790534702</span>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
